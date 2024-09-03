@@ -109,8 +109,7 @@ h6:after {
 .testimonial {
   background-color: #fafafa;
   width: 100%;
-  padding-bottom: 5%
-
+  padding-bottom: 5%;
 }
 .box {
   width: 280px;
@@ -133,44 +132,106 @@ h6:after {
   border-left: 15px solid transparent;
   border-bottom: none;
 }
-.inverted_comma{
-    width: 25px;
-    height: 25px;
+.inverted_comma {
+  width: 25px;
+  height: 25px;
 }
-.servce_title{
-    background-color: #45C3D3;
+.servce_title {
+  background-color: #45c3d3;
   width: 100%;
   height: 100%;
 }
-.servce_title>.title{
-    color: #ffffff;
-    font-size: 55px;
-    font-weight: 200;   
+.servce_title > .title {
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: 200;
 }
-.correct_sign{
-    width: 25px;
-    height: 25px;
+.correct_sign {
+  width: 25px;
+  height: 25px;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-.service_container{
-    text-align: left;
+.service_container {
+  text-align: left;
 }
-.service_section_one{
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 1.1;
-    color: #3f4b5e;
-    text-align: left;
+.service_section_one {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #3f4b5e;
+  text-align: left;
 }
-.living_room{
-    font-size: 40px;
-    font-weight: 500;
-    color: #45c3d3;
-    border-bottom: 3px solid #45c3d3;
+.living_room {
+  font-size: 40px;
+  font-weight: 500;
+  color: #45c3d3;
+  border-bottom: 3px solid #45c3d3;
 }
-.service_img2{
-    object-fit:cover;
-
+.service_img2 {
+  object-fit: cover;
+}
+.second_service {
+  padding-left: 15%;
+}
+.list_items {
+  color: #8b9aab;
+}
+.booking {
+  background: #f6fbfc;
+  border-top: 2px solid #d0f0f4;
+  text-align: center;
+}
+.booking_heading {
+  color: #3f4b5e;
+  font-size: 65px;
+  font-weight: 400;
+}
+.booking_text {
+  color: #8b9aab;
+  font-weight: 300;
+}
+footer {
+  background-color: #45c3d3;
+}
+.links {
+  padding-left: 30px;
+}
+.subscribe-form {
+  border-radius: 2px;
+  border: 2px solid #168d9b;
+}
+#subscribe_form::placeholder {
+  color: #45c3d3;
+}
+.input-group-text {
+  background-color: #168d9b;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  border-right: 1px solid #126770;
+  border-top: 1px solid #126770;
+  border-bottom: 1px solid #126770;
+}
+#subscribe_form {
+  padding: 12px 14px;
+  border-radius: 2px;
+  border: 2px solid #168d9b;
+  width: 25%;
+}
+.social_icon{
+  width: 45px;
+  height: 45px;
+}
+.social_icon_google_plus{
+  width: 55px;
+  height: 55px; 
+}
+.form_container{
+  width: 90%;
+}
+.footer-section{
+  width: 75%;
+  border-bottom: 0.5px solid #29a9b8;
 }
